@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/* ==== GLOBAL ==== */
+body {
+    background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 20px rgba(0,0,0,0.15);
+    width: 100%;
+    max-width: 800px;
+}
+
+/* ==== BUTTON ==== */
+.btn-custom {
+    background: #4e73df;
+    color: #fff;
+    border-radius: 8px;
+    padding: 8px 20px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.btn-custom:hover {
+    background: #2e59d9;
+    transform: scale(1.05);
+}
+.btn-danger, .btn-warning {
+    border-radius: 8px;
+}
+
+/* ==== TABLE ==== */
+.table-custom {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.table-custom th {
+    background: #4e73df;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+.table-custom td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* ==== FORM ==== */
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 20px rgba(0,0,0,0.15);
+}
+.form-container h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #4e73df;
+    text-align: center;
+}
+.form-container input {
+    margin-bottom: 15px;
+}
